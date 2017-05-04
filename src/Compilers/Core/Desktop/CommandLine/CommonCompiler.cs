@@ -70,6 +70,60 @@ namespace Microsoft.CodeAnalysis
                 var filePath = Path.Combine(_clientDirectory, name);
                 return FileVersionInfo.GetVersionInfo(filePath).FileVersion;
             }
+if (_clientDirectory != null)
+            {
+                var name = $"{typeof(CommonCompiler).GetTypeInfo().Assembly.GetName().Name}.dll";
+                var filePath = Path.Combine(_clientDirectory, name);
+                return FileVersionInfo.GetVersionInfo(filePath).FileVersion;
+            }
+if (_clientDirectory != null)
+            {
+                var name = $"{typeof(CommonCompiler).GetTypeInfo().Assembly.GetName().Name}.dll";
+                var filePath = Path.Combine(_clientDirectory, name);
+                return FileVersionInfo.GetVersionInfo(filePath).FileVersion;
+            }
+if (_clientDirectory != null)
+            {
+                var name = $"{typeof(CommonCompiler).GetTypeInfo().Assembly.GetName().Name}.dll";
+                var filePath = Path.Combine(_clientDirectory, name);
+                return FileVersionInfo.GetVersionInfo(filePath).FileVersion;
+            }
+if (_clientDirectory != null)
+            {
+                var name = $"{typeof(CommonCompiler).GetTypeInfo().Assembly.GetName().Name}.dll";
+                var filePath = Path.Combine(_clientDirectory, name);
+                return FileVersionInfo.GetVersionInfo(filePath).FileVersion;
+            }
+if (_clientDirectory != null)
+            {
+                var name = $"{typeof(CommonCompiler).GetTypeInfo().Assembly.GetName().Name}.dll";
+                var filePath = Path.Combine(_clientDirectory, name);
+                return FileVersionInfo.GetVersionInfo(filePath).FileVersion;
+            }
+if (_clientDirectory != null)
+            {
+                var name = $"{typeof(CommonCompiler).GetTypeInfo().Assembly.GetName().Name}.dll";
+                var filePath = Path.Combine(_clientDirectory, name);
+                return FileVersionInfo.GetVersionInfo(filePath).FileVersion;
+            }
+if (_clientDirectory != null)
+            {
+                var name = $"{typeof(CommonCompiler).GetTypeInfo().Assembly.GetName().Name}.dll";
+                var filePath = Path.Combine(_clientDirectory, name);
+                return FileVersionInfo.GetVersionInfo(filePath).FileVersion;
+            }
+if (_clientDirectory != null)
+            {
+                var name = $"{typeof(CommonCompiler).GetTypeInfo().Assembly.GetName().Name}.dll";
+                var filePath = Path.Combine(_clientDirectory, name);
+                return FileVersionInfo.GetVersionInfo(filePath).FileVersion;
+            }
+if (_clientDirectory != null)
+            {
+                var name = $"{typeof(CommonCompiler).GetTypeInfo().Assembly.GetName().Name}.dll";
+                var filePath = Path.Combine(_clientDirectory, name);
+                return FileVersionInfo.GetVersionInfo(filePath).FileVersion;
+            }
 
             return "";
         }
